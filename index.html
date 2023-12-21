@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="JS/script.js"></script>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="foto">
+            <img class="img" src="Screenshot 2023-11-08 171848.png"
+                alt="">
+        </div>
+        <div class="nav">
+            <button>home</button>
+            <button>Our Profile</button>
+            <button>Achievement</button>
+            <button>Massage Us</button>
+        </div>
+    </div>
+    <div class="section1">
+        <h1 style="margin-top: 50px; margin-left: 100px;">
+            Hi Ai, Welcome To Website
+        </h1>
+        <p style="margin-left: 100px;">ini adalah Website latihan pertama</p>
+    </div>
+    <h2 style="margin:20px 0px 0px 100px;">Our Facilitation</h2>
+    <div class="section2">
+        <div style="margin: 0px 50px 0px 150px;">
+            <div class="lingkaran">
+            </div>
+            <p style="text-align: center;">
+                professional<br>Teacher
+            </p>
+        </div>
+        <div style="margin: 0px 50px 0px 75px;">
+            <div class="lingkaran">
+            </div>
+            <p style="text-align: center;">
+                professional<br>Teacher
+            </p>
+        </div>
+        <div style="margin: 0px 50px 0px 75px;">
+            <div class="lingkaran">
+            </div>
+            <p style="text-align: center;">
+                professional<br>Teacher
+            </p>
+        </div>
+    </div>
+    <h2 style="margin:20px 0px 0px 100px;">Massage Us</h2>
+    <div class="section3">
+        <div class="bg1">
+            <div class="form">
+                <div style="margin-bottom: 10px;">
+                    <label for="name">Nama:</label>
+                    <input type="text" id="nama" placeholder="Masukan Nama">
+                </div>
+                <div style="margin-bottom: 10px;">
+                    <label for="name">Tanggal Lahir:</label>
+                    <input type="date" id="ttl" name="date">
+                </div>
+                <div style="margin-bottom: 10px;">
+                    <label for="name">Jenis Kelamin:</label>
+                    <input type="radio" id="cb1" name="jk">
+                    <label for="name">Laki-Laki</label>
+                    <input type="radio" id="cb2" name="jk">
+                    <label for="name">Perempuan</label>
+                </div>
+                <div style="margin-bottom: 10px; display: flex; align-items: start;">
+                    <label for="name">Pesan:</label>
+                    <input style="height:50px;" type="text" id="psn" name="pesan">
+                </div>
+                <input type="submit" id="submit" name="kirim" onclick="kirim()">
+            </div>
+        </div>
+        <div class="bg2">
+            <div class="box-output">
+                <div id="output"></div>
+            </div>
+        </div>
+    </div>
+    <script src="JS/script.js"></script>
+</body>
+
+</html>
